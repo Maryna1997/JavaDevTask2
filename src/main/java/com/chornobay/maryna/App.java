@@ -17,5 +17,8 @@ public class App
         mas.add(-87);
         System.out.println("Initial array:");
         mas.printer();
+        mas.bubbleSorter();
+        System.out.println("Sorted array:");
+        mas.printer();
     }
 }
